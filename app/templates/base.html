@@ -11,6 +11,7 @@
 		<ul>
 			<li><a href="{{ url_for('index') }}">718Digital</a></li>
 			{% if g.user.is_authenticated() %}
+			<li><a href="{{ url_for('user', username=g.user.username) }}">Your Profile</a></li>
 			<li><a href="{{ url_for('logout') }}">Logout</a></li>
 			{% endif %}
 		</ul>
