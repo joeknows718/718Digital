@@ -72,9 +72,12 @@ def after_login(resp):
 	user = User.query.filter_by(email=resp.email).first()
 	if user is None:
 		username = resp.email.split('@')[0]	
+		username = User.make_unique_username(username)
 		user = User(username=username, email=resp.email)
 		db.session.add(user)
 		db.session.commit()
+		db.session.add(user.follow(user))
+		db.session.commit() 
 	remember_me = False
 	if 'remember_me' in session:
 		remember_me = session['remember_me']
@@ -117,7 +120,43 @@ def edit():
 		form.about_me.data =  g.user.about_me
 	return render_template('edit.html', form=form)
 
+@app.route('/follow/<username>')
+@login_required
+def follow(username):
+	user = User.query.filter_by(username=username).first()
+	if user is None:
+		flash('User %s is not found.' % username)
+		return redirect(url_for('index'))
+	if user == g.user:
+		flash('You can\'t follow yourself!')
+		return redirect(url_for('user', username=username))
+	u = g.user.follow(user)
+	if u is None:
+		flash('Cannot follow ' + username + '.')
+		return redirect(url_for('user', username=username))
+	db.session.add(u)
+	db.session.commit()
+	flash('You are now following ' + username + '!')
+	return redirect(url_for('user', username=username))
 
+@app.route('/unfollow/<username>')
+@login_required
+def unfollow(username):
+	user = User.query.filter_by(username=username).first()
+	if user is None:
+		flash('User %s not found.' % username)
+		return redirect(url_for('index'))
+	if user == g.user:
+		flash('You can\'t unfollow yourself!')
+		return redirect(url_for('user', username=username))
+	u = g.user.unfollow(user)
+	if u is None:
+		flash('Cannot unfollow %s.' % username)
+		return redirect(url_for('user', username=username))
+	db.session.add(u)
+	db.session.commit()
+	flash('You have stopped following ' + username + '.')
+	return redirect(url_for('user', username=username))
 
 @app.errorhandler(404)
 def not_found_error(error):
