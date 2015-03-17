@@ -9,6 +9,18 @@ class User(db.Model):
 	about_me = db.Column(db.String(255))
 	last_seen = db.Column(db.DateTime)
 
+	@staticmethod
+	def make_unique_username(username):
+		if User.query.filter_by(username=username).first() is None:
+			return unsername
+		version = 2
+		while True:
+			new_username = username + str(version)
+			if User.query.filter_by(username=new_username).first() is None:
+				break  
+			version += 1 
+		return new_username
+
 	def is_authenticated(self):
 		return True
 
@@ -27,8 +39,13 @@ class User(db.Model):
 	def avatar(self, size):
 		return 'http://www.gravatar.com/avatar/%s?d=mm&s=%d' % (md5(self.email.encode('utf-8')).hexdigest(), size)
 
+
+
+
 	def __repr__(self):
 		return '<User %r>' % (self.username)
+
+
 
 class Post(db.Model):
 	id = db.Column(db.Integer, primary_key=True)

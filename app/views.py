@@ -3,6 +3,7 @@ from flask.ext.login import login_user, logout_user, current_user, login_require
 from app import app, db, lm, oid
 from .forms import LoginForm, EditForm 
 from .models import User 
+from datetime import  datetime
 
 
 @lm.user_loader
@@ -103,7 +104,7 @@ def user(username):
 @app.route('/edit', methods=['GET', 'POST'])
 @login_required
 def edit():
-	form = EditForm()
+	form = EditForm(g.user.username)
 	if form.validate_on_submit():
 		g.user.username = form.username.data
 		g.user.about_me = form.about_me.data 
@@ -118,6 +119,15 @@ def edit():
 
 
 
+@app.errorhandler(404)
+def not_found_error(error):
+	return render_template('404.html'), 404
+
+
+@app.errorhandler(500)
+def internal_error(error):
+	db.session.rollback()
+	return render_template('500.html'), 500  
 
 
 
