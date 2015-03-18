@@ -26,3 +26,6 @@ MAIL_PASSWORD = None
 
 #admin list
 ADMINS = ['joeknows718@gmail.com']
+
+#pagination  
+POSTS_PER_PAGE = 5

@@ -26,8 +26,14 @@
 </table>
 <hr>
 
-{% for post in posts %}
+{% for post in posts.items %}
 	{% include 'post.html' %}
 {% endfor %}
+{% if posts.has_prev %}
+	<a href="{{ url_for('user', username = user.username, page=posts.prev_num) }}">&lt;&lt; Newer Posts</a>|
+	{% else %}&lt;&lt; Newer Posts |{% endif %}
+	{% if posts.has_next %}
+	| <a href="{{ url_for('user', username = user.username,  page=posts.next_num) }}">Older posts &gt;&gt;</a>
+	{% else %}| Older posts &gt;&gt; {% endif %}
 {% endblock %}
 

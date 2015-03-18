@@ -23,8 +23,11 @@ class EditForm(Form):
 			return True
 		user = User.query.filter_by(username = self.username.data).first()
 		if user != None:
-			self.username.errors.append('This username is already in use - please choose again (No Shark Biters)')
+			self.username.errors.append('This username is already in use -  choose again (No Shark Biters)')
 			return False
 		return True 
 
 		
+class PostForm(Form):
+	post = StringField('post', validators=[DataRequired()])
+
