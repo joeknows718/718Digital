@@ -1,0 +1,9 @@
+Yo {{ user.username }},
+
+{{ follower.username }} is now following you. 
+
+Click the link below to check {{ follower.username }}'s profile page:
+
+{{ url_for('user', username=follower.username, _external=True) }}
+
+

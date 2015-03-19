@@ -1,20 +1,25 @@
 <html>
 <head>
 	{% if title %}
-	<title>{{ title }} | 718Digital</title>
+	<title>{{ title }} | Word On The Street</title>
 	{% else %}
-	<title>Technology, Graffiti, Culture | 718Digital</title>
+	<title>Word on the Street</title>
 	{% endif %}
 </head>
 <body>
 	<div>
 		<ul>
-			<li><a href="{{ url_for('index') }}">718Digital</a></li>
+			<li><a href="{{ url_for('index') }}">Word on the Street</a></li>
 			{% if g.user.is_authenticated() %}
 			<li><a href="{{ url_for('user', username=g.user.username) }}">Your Profile</a></li>
 			<li><a href="{{ url_for('logout') }}">Logout</a></li>
 			{% endif %}
 		</ul>
+		{% if g.user.is_authenticated() %}
+		<form style="display: inline;" action="{{ url_for('search') }}" method="post" name="search">
+			{{ g.search_form.hidden_tag() }}{{ g.search_form.search(size=20) }}<input type="submit" value="Search"/>
+		</form>
+		{% endif %}
 	</div>
 	<hr>
 	{% with messages = get_flashed_messages() %}

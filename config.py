@@ -1,4 +1,4 @@
-from key import key
+from key import key as key, email_pw as password 
 import os
 
 basedir = os.path.abspath(os.path.dirname(__file__))
@@ -19,13 +19,22 @@ SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(basedir, 'app.db')
 SQLALCHEMY_MIGRATE_REPO = os.path.join(basedir, 'db_repository')
 
 #mail server settings
-MAIL_SERVER = 'localhost'
-MAIL_PORT = 25
-MAIL_USERNAME = None
-MAIL_PASSWORD = None
+MAIL_SERVER = 'smtp.googlemail.com'
+MAIL_PORT = 465
+MAIL_USE_TSL = False 
+MAIL_USE_SSL = True 
+MAIL_USERNAME = 'joeknows718@gmail.com'
+MAIL_PASSWORD = password
 
 #admin list
 ADMINS = ['joeknows718@gmail.com']
 
 #pagination  
 POSTS_PER_PAGE = 5
+
+#Search db
+
+WHOOSH_BASE = os.path.join(basedir, 'search.db')
+
+MAX_SEARCH_RESULTS = 50
+
