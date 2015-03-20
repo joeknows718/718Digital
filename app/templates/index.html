@@ -1,36 +1,40 @@
 
 {% extends "base.html" %}
 {% block content %}
-	<h1>Yo, {{ g.user.username }}</h1>
-	<form action="" method="post" name="post">
+<h1>Yo, {{ g.user.username }}</h1>
+{% include 'flash.html' %}
+<div class="well">
+	<form class="form-horizontal" action="" method="post" name="post">
 		{{ form.hidden_tag() }}
-		<table>
-			<tr>
-				<td>What's good</td>
-				<td>{{ form.post(size=30, maxlength=255) }}</td>
-				<td>
-				{% for error in form.post.errors %}
-				<span style="color:red;">[{{ error }}]</span><br>
+		<div class="control-group{% if form.errors.post %} error{%endif}">
+			<label class="control-label" for="post">What's good:</label>
+			<div class="controls">
+				{{ form.post(size=30, maxlength=140) }}
+				{% for error in form.errors.post %}
+					<span class="help-inline">[{{ error }}]</span><br>
 				{% endfor %}
-				</td>
-			</tr>
-			<tr>
-				<td></td>
-				<td><input type="submit" value="Post!"></td>
-				<td></td>
-			</tr>
-		</table>
+			</div>
+		</div>
+		<div class="control-group">
+			<div class="controls">
+				<input class="btn btn-primary" type="submit" value="Post">
+			</div>
+		</div>
 	</form>
-	{% for post in posts.items %}
-	<p>
-		{% include 'post.html' %}
-	</p>
-	{% endfor %}
+</div>
+{% for post in posts.items %}
+	{% include 'post.html' %}
+{% endfor %}
+<ul class="pager">
 	{% if posts.has_prev %}
-	<a href="{{ url_for('index', page=posts.prev_num) }}">&lt;&lt; Newer Posts</a>|
-	{% else %}&lt;&lt; Newer Posts |{% endif %}
+	<li class="previous"><a href="{{ url_for('index', page=posts.prev_num) }}">Newer Posts</a></li>
+	{% else %}
+	<li class="previous disabled"><a href="#">Newer Posts</a></li>
+	{% endif %}
 	{% if posts.has_next %}
-	| <a href="{{ url_for('index', page=posts.next_num) }}">Older posts &gt;&gt;</a>
-	{% else %}| Older posts &gt;&gt; {% endif %}
-
+	<li class="next"<a href="{{ url_for('index', page=posts.next_num) }}">Older Posts</a></li>
+	{% else %}
+	<li class="next disabled"><a href="#">Newer Posts</a></li>
+	{% endif %}
+</ul>
 {% endblock %}
