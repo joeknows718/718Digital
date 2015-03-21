@@ -100,7 +100,7 @@ def edit():
 		db.session.add(g.user)
 		db.session.commit()
 		flash('Your changes have been saved.')
-		return redirect(url_for('edit'))
+		return redirect(url_for('user', username=g.user.username))
 	else:
 		form.username.data = g.user.username
 		form.about_me.data =  g.user.about_me
@@ -123,7 +123,7 @@ def follow(username):
 	db.session.add(u)
 	db.session.commit()
 	flash('You are now following ' + username + '!')
-	foller_notification(user, g.user)
+	follower_notification(user, g.user)
 	return redirect(url_for('user', username=username))
 
 @app.route('/unfollow/<username>')
@@ -166,6 +166,6 @@ def search():
 @app.route('/search_results/<query>')
 @login_required
 def search_results(query):
-	results = Post.query.whoos_search(query, MAX_SEARCH_RESULTS).all()
+	results = Post.query.whoosh_search(query, MAX_SEARCH_RESULTS).all()
 	return render_template('search_results.html', query=query, results=results)
 
