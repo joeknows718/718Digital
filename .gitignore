@@ -2,4 +2,4 @@ venv/*
 env/*
 key.py
 key.pyc
-
++*mo

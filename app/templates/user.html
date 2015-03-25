@@ -9,14 +9,14 @@
 	</div>
 	<h1>{{ user.username }}</h1>
 	{% if user.about_me %}<p>{{ user.about_me }}</p>{% endif %}
-	{% if user.last_seen %}<p><em>Last seen on: {{ momentjs(user.last_seen).calendar() }}</em></p>{% endif %}
-	<p>Followers: {{ user.followers.count() - 1  }} | Following: {{ user.followed.count() - 1 }}
+	{% if user.last_seen %}<p><em>{{ _('Last seen on:') }} {{ momentjs(user.last_seen).calendar() }}</em></p>{% endif %}
+	<p>{{ _('Followers:') }}' {{ user.followers.count() - 1  }} | {{ _('Following:') }}' {{ user.followed.count() - 1 }}
 		{% if user.id == g.user.id %}
-		<a href="{{ url_for('edit') }}">Edit your profile.</a>
+		<a href="{{ url_for('edit') }}">{{ _('Edit your profile') }}</a>
 		{% elif not g.user.is_following(user) %}
-		<a href="{{ url_for('follow', username=user.username) }}">Follow</a>
+		<a href="{{ url_for('follow', username=user.username) }}">{{ _('Follow') }}</a>
 		{% else %}
-		<a href="{{ url_for('unfollow', username=user.username) }}">Unfollow</a>
+		<a href="{{ url_for('unfollow', username=user.username) }}">{{ _('Unfollow') }}</a>
 		{% endif %}
 	</p>
 </div>
@@ -25,14 +25,14 @@
 	{% include 'post.html' %}
 {% endfor %}
 {% if posts.has_prev %}
-	<li class="previous"><a href="url_for('user', username=user.username, page=posts.prev_num">Newer Posts</a>
+	<li class="previous"><a href="url_for('user', username=user.username, page=posts.prev_num">{{ _('Newer Posts') }}</a>
 {% else %}
-	<li class="previous disabled"><a href="#">Newer Posts</a>
+	<li class="previous disabled"><a href="#">{{ _('Newer Posts') }}</a>
 {% endif %}
 {% if posts.has_next %}
-	<li class="next"><a href="url_for('user', username=user.username, page=posts.next_num">Older Posts</a>
+	<li class="next"><a href="url_for('user', username=user.username, page=posts.next_num">{{ _('Older Posts') }}</a>
 {% else %}
-	<li class="next disabled"><a href="#">Older Posts</a>
+	<li class="next disabled"><a href="#">{{ _('Older Posts') }}</a>
 {% endif %}
 </ul>
 

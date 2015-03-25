@@ -4,13 +4,19 @@ from app import app, db, lm, oid
 from .forms import LoginForm, EditForm, PostForm, SearchForm
 from .models import User, Post
 from datetime import  datetime
-from config import POSTS_PER_PAGE, MAX_SEARCH_RESULTS
+from config import POSTS_PER_PAGE, MAX_SEARCH_RESULTS, LANGUAGES
 from emails import follower_notification 
+from app import babel 
+from flask.ext.babel import gettext
 
 
 @lm.user_loader
 def load_user(id):
 	return User.query.get(int(id))
+
+@babel.localeselector
+def get_locale():
+	return request.accept_languages.best_match(LANGUAGES.keys())
 
 @app.before_request
 def before_request():
@@ -20,6 +26,7 @@ def before_request():
 		db.session.add(g.user)
 		db.session.commit()
 		g.search_form = SearchForm() 
+	g.locale = get_locale()
 
 @app.route('/', methods=['GET', 'POST'])
 @app.route('/index', methods=['GET', 'POST'])
@@ -31,7 +38,7 @@ def index(page=1):
 		post = Post(body=form.post.data, timestamp=datetime.utcnow(), author=g.user)
 		db.session.add(post)
 		db.session.commit()
-		flash('Your post is now live!')
+		flash(gettext('Your post is now live!'))
 		return redirect(url_for('index'))
 	posts = g.user.followed_posts().paginate(page, POSTS_PER_PAGE, False)
 	return render_template('index.html', title='Home', user=user, form=form, posts=posts)
@@ -55,11 +62,12 @@ def login():
 @oid.after_login
 def after_login(resp):
 	if resp.email is None or resp.email =="":
-		flash("Invalid Login, please try again..")
+		flash(gettext("Invalid Login, please try again.."))
 		return redirect(url_for('login'))
 	user = User.query.filter_by(email=resp.email).first()
 	if user is None:
 		username = resp.email.split('@')[0]	
+		username = User.make_valid_username(username)
 		username = User.make_unique_username(username)
 		user = User(username=username, email=resp.email)
 		db.session.add(user)
@@ -84,7 +92,7 @@ def logout():
 def user(username, page=1):
 	user = User.query.filter_by(username=username).first()
 	if user == None:
-		flash('User %s not found.' % username)
+		flash(gettext('User %s not found.' % username))
 		return redirect(url_for('index'))
 	posts = user.posts.paginate(page, POSTS_PER_PAGE, False)
 	return render_template('user.html', user=user, posts=posts)
@@ -99,7 +107,7 @@ def edit():
 		g.user.about_me = form.about_me.data 
 		db.session.add(g.user)
 		db.session.commit()
-		flash('Your changes have been saved.')
+		flash(gettext('Your changes have been saved.'))
 		return redirect(url_for('user', username=g.user.username))
 	else:
 		form.username.data = g.user.username
@@ -111,18 +119,18 @@ def edit():
 def follow(username):
 	user = User.query.filter_by(username=username).first()
 	if user is None:
-		flash('User %s is not found.' % username)
+		flash(gettext('User %s is not found.' % username))
 		return redirect(url_for('index'))
 	if user == g.user:
-		flash('You can\'t follow yourself!')
+		flash(gettext('You can\'t follow yourself!'))
 		return redirect(url_for('user', username=username))
 	u = g.user.follow(user)
 	if u is None:
-		flash('Cannot follow ' + username + '.')
+		flash(gettext('Cannot follow ' + username + '.'))
 		return redirect(url_for('user', username=username))
 	db.session.add(u)
 	db.session.commit()
-	flash('You are now following ' + username + '!')
+	flash(gettext('You are now following ' + username + '!'))
 	follower_notification(user, g.user)
 	return redirect(url_for('user', username=username))
 
@@ -131,18 +139,18 @@ def follow(username):
 def unfollow(username):
 	user = User.query.filter_by(username=username).first()
 	if user is None:
-		flash('User %s not found.' % username)
+		flash(gettext('User %s not found.' % username))
 		return redirect(url_for('index'))
 	if user == g.user:
-		flash('You can\'t unfollow yourself!')
+		flash(gettext('You can\'t unfollow yourself!'))
 		return redirect(url_for('user', username=username))
 	u = g.user.unfollow(user)
 	if u is None:
-		flash('Cannot unfollow %s.' % username)
+		flash(gettext('Cannot unfollow %s.' % username))
 		return redirect(url_for('user', username=username))
 	db.session.add(u)
 	db.session.commit()
-	flash('You have stopped following ' + username + '.')
+	flash(gettext('You have stopped following ' + username + '.'))
 	return redirect(url_for('user', username=username))
 
 @app.errorhandler(404)
@@ -168,4 +176,5 @@ def search():
 def search_results(query):
 	results = Post.query.whoosh_search(query, MAX_SEARCH_RESULTS).all()
 	return render_template('search_results.html', query=query, results=results)
+
 

@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from key import key as key, email_pw as password 
 import os
 
@@ -37,4 +39,9 @@ POSTS_PER_PAGE = 5
 WHOOSH_BASE = os.path.join(basedir, 'search.db')
 
 MAX_SEARCH_RESULTS = 50
+
+LANGUAGES = {
+	'en' : 'English',
+	'es' : 'Espanol'
+}
 

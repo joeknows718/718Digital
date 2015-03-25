@@ -1,6 +1,7 @@
 from app import db
 from hashlib import md5
 from app import app 
+import re 
 
 import sys
 
@@ -41,6 +42,10 @@ class User(db.Model):
 				break  
 			version += 1 
 		return new_username
+
+	@staticmethod
+	def make_valid_username(username):
+		return re.sub('[a-zA-Z0-9_\.]', '', username)
 
 	def is_authenticated(self):
 		return True

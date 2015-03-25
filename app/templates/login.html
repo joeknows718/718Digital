@@ -14,11 +14,11 @@ function set_openid(openid, pr){
 </script>
 {% include 'flash.html' %}
 <div class="well">
-	<h3>Please Sign In</h3>
+	<h3>{{ _('Please Sign In') }}</h3>
 	<form class="form" action="" method="post" name="login">
 		{{ form.hidden_tag() }}
 		<div class="help-block">
-			Click on your OpenID Provider below:
+			{{ _('Click on your OpenID Provider below:') }}'
 		</div>
 		<div class="control-group>">
 			{% for pr in providers %}
@@ -37,13 +37,13 @@ function set_openid(openid, pr){
 		<div class="control-group">
 			<div class="controls">
 				<label class="checkbox" for="remember_me">
-					{{ form.remember_me }} Remeber Me
+					{{ form.remember_me }} {{ _('Remeber Me') }}
 				</label>
 			</div>
 		</div>
 		<div class="control-group">	
 			<div class="control">
-				<input class="btn btn-primary" type="submit" value="Sign In">
+				<input class="btn btn-primary" type="submit" value="{{ _('Sign In') }}">
 			</div>
 	</form>
 </div>

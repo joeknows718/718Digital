@@ -2,8 +2,8 @@
 
 {% block content %}
 
-<h1>This is not the page you are looking for.</h1>
-<p><a href="{{ url_for('index') }}"></a></p>
+<h1>{{ _('This is not the page you are looking for.') }}</h1>
+<p><a href="{{ url_for('index') }}">{{ _('Back') }}</a></p>
 
 {% endblock %}
 

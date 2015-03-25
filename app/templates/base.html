@@ -22,21 +22,21 @@
 	           			<span class="icon-bar"></span>
 	          			<span class="icon-bar"></span>
 	      			</a>
-	        		<a class="navbar-brand" href="/">Streets Are Ttalking</a>
+	        		<a class="navbar-brand" href="/">Streets Are Talking</a>
         		</div>
         		<div class="navbar navbar-collapse">
 	          		<ul class="nav navbar-nav">
-		             	<li><a href="{{ url_for('index') }}">Home</a></li>
+		             	<li><a href="{{ url_for('index') }}">{{ _('Home') }}</a></li>
 		            	{% if g.user.is_authenticated() %}
-		            	<li><a href="{{ url_for('user', username = g.user.username) }}">Your Profile</a></li>
-		           		<li><a href="{{ url_for('logout') }}">Logout</a></li>
+		            	<li><a href="{{ url_for('user', username = g.user.username) }}">{{ _('Your Profile') }}</a></li>
+		           		<li><a href="{{ url_for('logout') }}">{{ _('Logout') }}</a></li>
 		           		{% endif %}
 	           		</ul>
 	           		{% if g.user.is_authenticated() %}
 	           		<form class="navbar-form pull-right" action="{{url_for('search')}}" method="post" name="search">
 	           			<div class="form-group">
 	           			{{ g.search_form.hidden_tag() }}
-	           			{{g.search_form.search(size=20,placeholder="Search",class="form-control")}}
+	           			{{g.search_form.search(size=20,placeholder=_('Search'),class="form-control")}}
 	           			<input class="btn btn-primary" type="submit" value="Search">
 	           			</div>
 	           		</form>
