@@ -70,3 +70,328 @@
 2015-03-24 21:28:08,658 INFO: 718 Digital [in  /Users/joeknows718/projects/718Digital/app/__init__.py:51]
 2015-03-24 21:31:25,024 INFO: 718 Digital [in  /Users/joeknows718/projects/718Digital/app/__init__.py:51]
 2015-03-24 21:31:44,435 INFO: 718 Digital [in  /Users/joeknows718/projects/718Digital/app/__init__.py:51]
+2015-03-25 14:20:09,648 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:52]
+2015-03-25 14:20:10,358 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:52]
+2015-03-25 17:22:55,999 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:53]
+2015-03-26 12:53:53,939 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:53]
+2015-03-26 12:54:57,113 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:53]
+2015-03-26 12:57:28,078 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:53]
+2015-03-26 12:57:56,078 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:53]
+2015-03-26 12:59:29,267 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:53]
+2015-03-26 12:59:35,077 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:53]
+2015-03-26 13:00:29,672 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:53]
+2015-03-26 13:02:07,246 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:53]
+2015-03-26 13:02:11,584 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:53]
+2015-03-26 13:04:49,501 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:53]
+2015-03-26 13:06:44,133 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:53]
+2015-03-26 13:06:47,165 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:53]
+2015-03-26 13:07:27,487 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:53]
+2015-03-26 13:12:18,975 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:53]
+2015-03-26 13:18:32,086 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:53]
+2015-03-26 13:19:11,714 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:53]
+2015-03-26 13:28:03,701 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 13:28:12,676 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 13:28:58,420 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 13:31:01,891 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 13:34:33,657 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 13:34:41,660 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 13:38:36,177 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 13:52:16,943 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 13:52:29,175 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 13:57:32,822 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 13:57:43,155 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 13:58:11,724 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 13:58:34,871 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 13:58:39,523 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 13:59:14,942 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 13:59:56,686 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 14:00:39,514 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 14:01:40,724 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 14:08:42,642 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 14:08:43,245 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 14:09:49,482 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 14:11:02,291 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 14:11:34,565 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 14:11:59,905 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 14:12:37,077 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 14:16:01,374 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 14:17:53,792 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 14:18:06,743 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 14:18:14,642 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 14:25:44,638 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 14:26:50,245 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 14:26:51,081 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 14:35:28,465 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 14:35:43,062 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 15:12:29,108 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 15:26:08,767 INFO: 718 Digital [in  app/__init__.py:67]
+2015-03-26 15:27:47,595 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 15:28:05,062 INFO: 718 Digital [in  app/__init__.py:67]
+2015-03-26 15:29:22,168 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 15:29:52,530 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 15:30:09,916 INFO: 718 Digital [in  app/__init__.py:67]
+2015-03-26 15:31:20,963 INFO: 718 Digital [in  app/__init__.py:67]
+2015-03-26 15:31:39,494 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 15:31:57,380 INFO: 718 Digital [in  app/__init__.py:67]
+2015-03-26 15:32:21,827 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 15:32:32,782 INFO: 718 Digital [in  app/__init__.py:67]
+2015-03-26 15:32:57,047 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 15:33:10,064 INFO: 718 Digital [in  app/__init__.py:67]
+2015-03-26 15:33:27,406 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 15:36:21,919 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 15:39:09,086 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 15:59:12,279 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 16:00:26,381 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 16:00:40,974 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 16:03:01,160 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 16:03:17,125 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 16:10:19,112 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 16:10:33,400 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 16:12:06,184 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 16:15:23,328 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 16:15:31,540 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 16:15:32,020 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 16:17:16,809 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 16:18:24,481 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 16:19:32,179 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 16:19:52,119 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 16:21:53,538 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 16:21:54,417 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 16:22:35,739 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 16:22:56,247 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 16:23:05,919 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 16:29:02,960 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 16:29:22,113 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 16:29:40,208 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 16:33:29,653 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 16:33:30,422 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 16:37:24,419 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 16:49:30,116 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 16:50:31,592 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 16:55:28,446 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 16:57:25,983 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 16:57:26,972 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-26 16:58:05,464 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 12:12:50,792 ERROR: Exception on /index [GET] [in  /Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask/app.py:1423]
+Traceback (most recent call last):
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask_login.py", line 758, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/joecarrano/718Digi/app/views.py", line 49, in index
+    return render_template('index.html', title='Home', user=user, form=form, posts=posts)
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask/templating.py", line 128, in render_template
+    context, ctx.app)
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask/templating.py", line 110, in _render
+    rv = template.render(context)
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/jinja2/environment.py", line 969, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/jinja2/environment.py", line 742, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/joecarrano/718Digi/app/templates/post.html", line 15, in template
+    {{ form.edit_form(size=30, maxlength=140, value={{ post.body }} style="margin-top:10px; margin-bottom:10px;") }}
+TemplateSyntaxError: expected token ':', got '}'
+2015-03-27 12:13:28,320 ERROR: Exception on /index [GET] [in  /Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask/app.py:1423]
+Traceback (most recent call last):
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask_login.py", line 758, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/joecarrano/718Digi/app/views.py", line 49, in index
+    return render_template('index.html', title='Home', user=user, form=form, posts=posts)
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask/templating.py", line 128, in render_template
+    context, ctx.app)
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask/templating.py", line 110, in _render
+    rv = template.render(context)
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/jinja2/environment.py", line 969, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/jinja2/environment.py", line 742, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/joecarrano/718Digi/app/templates/post.html", line 15, in template
+    {{ form.edit_form(size=30, maxlength=140, value={{ post.body }} style="margin-top:10px; margin-bottom:10px;") }}
+TemplateSyntaxError: expected token ':', got '}'
+2015-03-27 12:13:57,461 ERROR: Exception on /index [GET] [in  /Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask/app.py:1423]
+Traceback (most recent call last):
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask_login.py", line 758, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/joecarrano/718Digi/app/views.py", line 49, in index
+    return render_template('index.html', title='Home', user=user, form=form, posts=posts)
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask/templating.py", line 128, in render_template
+    context, ctx.app)
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask/templating.py", line 110, in _render
+    rv = template.render(context)
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/jinja2/environment.py", line 969, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/jinja2/environment.py", line 742, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/joecarrano/718Digi/app/templates/post.html", line 15, in template
+    {{ form.edit_form(size=30, maxlength=140, value={{ post.body }} style="margin-top:10px; margin-bottom:10px;") }}
+TemplateSyntaxError: expected token ':', got '}'
+2015-03-27 12:14:05,947 ERROR: Exception on /index [GET] [in  /Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask/app.py:1423]
+Traceback (most recent call last):
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask_login.py", line 758, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/joecarrano/718Digi/app/views.py", line 49, in index
+    return render_template('index.html', title='Home', user=user, form=form, posts=posts)
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask/templating.py", line 128, in render_template
+    context, ctx.app)
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask/templating.py", line 110, in _render
+    rv = template.render(context)
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/jinja2/environment.py", line 969, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/jinja2/environment.py", line 742, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/joecarrano/718Digi/app/templates/post.html", line 15, in template
+    {{ form.edit_form(size=30, maxlength=140, value={{ post.body }} style="margin-top:10px; margin-bottom:10px;") }}
+TemplateSyntaxError: expected token ':', got '}'
+2015-03-27 12:14:11,046 ERROR: Exception on /index [GET] [in  /Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask/app.py:1423]
+Traceback (most recent call last):
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask_login.py", line 758, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/joecarrano/718Digi/app/views.py", line 49, in index
+    return render_template('index.html', title='Home', user=user, form=form, posts=posts)
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask/templating.py", line 128, in render_template
+    context, ctx.app)
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask/templating.py", line 110, in _render
+    rv = template.render(context)
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/jinja2/environment.py", line 969, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/jinja2/environment.py", line 742, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/joecarrano/718Digi/app/templates/post.html", line 15, in template
+    {{ form.edit_form(size=30, maxlength=140, value={{ post.body }} style="margin-top:10px; margin-bottom:10px;") }}
+TemplateSyntaxError: expected token ':', got '}'
+2015-03-27 12:14:22,454 ERROR: Exception on /index [GET] [in  /Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask/app.py:1423]
+Traceback (most recent call last):
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask_login.py", line 758, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/joecarrano/718Digi/app/views.py", line 49, in index
+    return render_template('index.html', title='Home', user=user, form=form, posts=posts)
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask/templating.py", line 128, in render_template
+    context, ctx.app)
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/flask/templating.py", line 110, in _render
+    rv = template.render(context)
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/jinja2/environment.py", line 969, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Users/joecarrano/718Digi/env/lib/python2.7/site-packages/jinja2/environment.py", line 742, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/joecarrano/718Digi/app/templates/post.html", line 15, in template
+    {{ form.edit_form(size=30, maxlength=140, value={{ post.body }} style="margin-top:10px; margin-bottom:10px;") }}
+TemplateSyntaxError: expected token ':', got '}'
+2015-03-27 12:14:54,099 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 12:14:54,954 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 12:29:49,919 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 12:30:03,231 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 12:37:14,540 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 12:38:09,463 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 12:40:26,934 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 13:01:26,520 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 13:04:16,361 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 13:13:16,380 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 13:13:17,233 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 13:15:43,433 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 13:15:54,220 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 13:18:03,953 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 13:21:50,668 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 13:26:53,470 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 13:28:03,000 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 13:29:02,773 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 13:29:09,860 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 13:32:10,065 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 13:33:29,424 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 13:33:41,457 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 13:38:49,244 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 13:40:39,451 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 13:41:15,707 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 13:41:16,537 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 13:43:11,677 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 13:46:00,627 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 13:46:37,112 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 13:47:06,241 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 13:47:33,156 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 13:49:11,415 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 13:50:27,446 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 13:50:53,998 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 13:51:35,164 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 13:54:33,108 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 14:02:42,991 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 14:03:37,831 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 14:06:28,710 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 14:06:41,868 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 14:09:47,068 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 14:15:17,073 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 14:16:58,848 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 14:17:36,570 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 14:18:23,028 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 14:18:53,662 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 14:19:14,356 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 14:21:57,255 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 14:25:49,098 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 14:31:34,762 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 14:32:24,946 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 14:33:35,731 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 14:44:35,101 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 14:44:44,640 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 14:45:05,242 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 14:46:02,908 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 14:46:35,150 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 14:50:21,450 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 14:50:51,949 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 14:51:20,277 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]
+2015-03-27 14:52:10,333 INFO: 718 Digital [in  /Users/joecarrano/718Digi/app/__init__.py:67]

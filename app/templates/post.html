@@ -5,7 +5,16 @@
 			{% autoescape false %}
 				<p>{{ _('%(username)s said %(when)s:', username = '<a href="%s">%s</a>' % (url_for('user', username=post.author.username), post.author.username), when=momentjs(post.timestamp).fromNow()) }}</p>
 			{% endautoescape %}
-			<p><strong>{{post.body}}</strong></p>
+
+			<p id="post-body"><strong><span id="post{{ post.id }}">{{post.body}}</span></strong></p>
+			{% if post.author.id == g.user.id %}
+			<div><a href="{{ url_for('delete', id=post.id) }}">{{ _('Delete') }}</a> <a id="edit" href="{{ url_for( 'edit_post', id=post.id)}}">Edit</a></div>
+			{% endif %}
+
+			{% if post.language != None and post.language != '' and post.language != g.locale %}
+			<div><span id="translation{{ post.id }}"><a href="javascript:translate('{{ post.language }}', '{{ g.locale }}', '#post{{ post.id }}', '#translation{{ post.id }}', '#loading{{ post.id }}');">{{ _('Translate') }}</a></span></div>
+			<img id="loading{{post.id}}" style="display: none" src="/static/img/loading.gif">
+			{% endif %}
 		</td>
 	</tr>
 </table> 

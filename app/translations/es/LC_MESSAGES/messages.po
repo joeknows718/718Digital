@@ -1,0 +1,189 @@
+# Spanish translations for PROJECT.
+# Copyright (C) 2015 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2015-03-26 15:21-0400\n"
+"PO-Revision-Date: 2015-03-25 14:31-0400\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 1.3\n"
+
+#: app/forms.py:25
+msgid ""
+"This nickname has invalid characters. Please use letters, numbers, dots "
+"and underscores only."
+msgstr ""
+
+#: app/forms.py:29
+msgid "This username is already in use -  choose again (No Shark Biters)"
+msgstr ""
+
+#: app/translate.py:16
+msgid "Error: Translation service not configured."
+msgstr ""
+
+#: app/views.py:45
+msgid "Your post is now live!"
+msgstr ""
+
+#: app/views.py:69
+msgid "Invalid Login, please try again.."
+msgstr ""
+
+#: app/views.py:99 app/views.py:146
+#, python-format
+msgid "User %s not found."
+msgstr ""
+
+#: app/views.py:114
+msgid "Your changes have been saved."
+msgstr ""
+
+#: app/views.py:126
+#, python-format
+msgid "User %s is not found."
+msgstr ""
+
+#: app/views.py:129
+msgid "You can't follow yourself!"
+msgstr ""
+
+#: app/views.py:133
+msgid "Cannot follow ."
+msgstr ""
+
+#: app/views.py:137
+msgid "You are now following !"
+msgstr ""
+
+#: app/views.py:149
+msgid "You can't unfollow yourself!"
+msgstr ""
+
+#: app/views.py:153
+#, python-format
+msgid "Cannot unfollow %s."
+msgstr ""
+
+#: app/views.py:157
+msgid "You have stopped following ."
+msgstr ""
+
+#: app/templates/base.html:32
+msgid "Home"
+msgstr ""
+
+#: app/templates/base.html:34
+msgid "Your Profile"
+msgstr ""
+
+#: app/templates/base.html:35
+msgid "Logout"
+msgstr ""
+
+#: app/templates/base.html:42
+msgid "Search"
+msgstr ""
+
+#: app/templates/edit.html:5
+msgid "Edit your profile!"
+msgstr ""
+
+#: app/templates/edit.html:12
+msgid "Your username:"
+msgstr ""
+
+#: app/templates/edit.html:21
+msgid "About you:"
+msgstr ""
+
+#: app/templates/edit.html:31
+msgid "Save Changes"
+msgstr ""
+
+#: app/templates/follower_email.html:3
+#, python-format
+msgid "%(username)s is now a follower."
+msgstr ""
+
+#: app/templates/index.html:4
+#, python-format
+msgid "Yo, %(username)s!"
+msgstr ""
+
+#: app/templates/index.html:10
+msgid "What's good:"
+msgstr ""
+
+#: app/templates/index.html:20
+msgid "Post"
+msgstr ""
+
+#: app/templates/index.html:30 app/templates/index.html:32
+#: app/templates/user.html:28 app/templates/user.html:30
+msgid "Newer Posts"
+msgstr ""
+
+#: app/templates/index.html:35 app/templates/index.html:37
+#: app/templates/user.html:33 app/templates/user.html:35
+msgid "Older Posts"
+msgstr ""
+
+#: app/templates/login.html:17
+msgid "Please Sign In"
+msgstr ""
+
+#: app/templates/login.html:21
+msgid "Click on your OpenID Provider below:"
+msgstr ""
+
+#: app/templates/login.html:40
+msgid "Remeber Me"
+msgstr ""
+
+#: app/templates/login.html:46
+msgid "Sign In"
+msgstr ""
+
+#: app/templates/search_results.html:4
+#, python-format
+msgid "Search results for \"%(query)s\":"
+msgstr ""
+
+#: app/templates/user.html:12
+msgid "Last seen on:"
+msgstr ""
+
+#: app/templates/user.html:13
+msgid "Followers:"
+msgstr ""
+
+#: app/templates/user.html:13
+msgid "Following:"
+msgstr ""
+
+#: app/templates/user.html:15
+msgid "Edit your profile"
+msgstr ""
+
+#: app/templates/user.html:17
+msgid "Follow"
+msgstr ""
+
+#: app/templates/user.html:19
+msgid "Unfollow"
+msgstr ""
+
+#~ msgid "You need to be logged in to see this page"
+#~ msgstr ""
+

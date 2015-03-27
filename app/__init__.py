@@ -7,6 +7,7 @@ from config import basedir, ADMINS, MAIL_SERVER, MAIL_PORT, MAIL_USERNAME, MAIL_
 from flask.ext.mail import Mail
 from momentjs import momentjs
 from flask.ext.babel import Babel, lazy_gettext 
+from flask.json import JSONEncoder
 
 
 
@@ -26,8 +27,22 @@ mail = Mail(app)
 app.jinja_env.globals['momentjs'] = momentjs
 babel = Babel(app) 
 
-#automatic exception loggin hadler emails / major issue tracking
 
+class CustomJSONEncoder(JSONEncoder):
+	""" This is a class adds support for lazy translation to Flasks JSON encoder. THis is necessary when flashing 
+	translated texts."""
+	def default(self, obj):
+		from speaklater import is_lazy_string
+		if is_lazy_string(obj):
+			try:
+				return unicode(obj)
+			except NameError:
+				return str(obj)
+		return super(CustomJSONEncoder, self).default(obj)
+
+app.json_encoder = CustomJSONEncoder
+
+#automatic exception loggin hadler emails / major issue tracking
 if not app.debug:
 	import logging
 	from logging.handlers import SMTPHandler
@@ -50,5 +65,7 @@ if not app.debug:
 	file_handler.setLevel(logging.INFO)
 	app.logger.addHandler(file_handler)
 	app.logger.info('718 Digital')
+
+
 
 from app import views, models

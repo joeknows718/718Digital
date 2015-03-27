@@ -5,7 +5,7 @@ import re
 
 import sys
 
-if sys.version_info>=(3,0):
+if sys.version_info >= (3, 0):
 	enable_search = False
 else:
  enable_search = True
@@ -31,10 +31,15 @@ class User(db.Model):
 								backref=db.backref('followers', lazy='dynamic'),
 								lazy='dynamic')
 
+
+	@staticmethod
+	def make_valid_username(username):
+		return re.sub('[^a-zA-Z0-9_\.]', '', username)
+
 	@staticmethod
 	def make_unique_username(username):
 		if User.query.filter_by(username=username).first() is None:
-			return unsername
+			return username
 		version = 2
 		while True:
 			new_username = username + str(version)
@@ -43,9 +48,6 @@ class User(db.Model):
 			version += 1 
 		return new_username
 
-	@staticmethod
-	def make_valid_username(username):
-		return re.sub('[a-zA-Z0-9_\.]', '', username)
 
 	def is_authenticated(self):
 		return True
@@ -93,12 +95,14 @@ class User(db.Model):
 
 
 class Post(db.Model):
+	
 	__searchable__ = ['body']
 
 	id = db.Column(db.Integer, primary_key=True)
 	body = db.Column(db.String(140))
 	timestamp = db.Column(db.DateTime)
 	user_id = db.Column(db.Integer, db.ForeignKey('user.id'))
+	language = db.Column(db.String(5))
 
 	def __repr__(self):
 		return '<Post %r>' % (self.body)

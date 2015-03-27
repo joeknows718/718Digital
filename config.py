@@ -1,12 +1,11 @@
-# -*- coding: utf-8 -*-
-
+# -*- coding: utf8 -*-
 from key import key as key, email_pw as password 
 import os
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 
 
-WTF_CSRF_ENABLED = True 
+CSRF_ENABLED = True 
 SECRET_KEY = key
 
 OPENID_PROVIDERS = [
@@ -45,3 +44,5 @@ LANGUAGES = {
 	'es' : 'Espanol'
 }
 
+MS_TRANSLATOR_CLIENT_ID = 'joeknows718'
+MS_TRANSLATOR_CLIENT_SECRET = 'yP6AO991k4NKIUs45sFDFQpZgBuERHkMqrY1rj9S1BI='

@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>{{ _('Edit your post!') }}</h1> 
+
+{% include 'flash.html' %}
+<div class="well">
+	<form class="form-horizontal" action="" method="post" name="edit_form">
+		{{ form.hidden_tag() }}
+		<div class="control-group{% if form.errors.post %} error {% endif %}">
+			<label class="control-label" for="post">{{ _('Your post:') }}</label>
+			<div class="controls">
+				{{ form.post(maxlength = 140, class = "span4") }}
+				{% for error in form.errors.post %}
+				<span class="help-inline">[{{ error }}]</span><br>
+				{% endfor %}
+			</div>
+		</div>
+		<div></div>
+		<div class="control-group">
+			<div class="controls" style="padding-top: 10px;">
+				<input class="btn btn-primary" type="submit" value="{{ _('Save Changes') }}">
+			</div>
+		</div>
+	</form>
+</div>
+{% endblock %}
